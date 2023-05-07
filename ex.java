@@ -1,3 +1,5 @@
-public static void main(String[] args) {
-  
+public class ex{
+  public static void public static void main(String[] args) {
+    ....
+  }
 }
