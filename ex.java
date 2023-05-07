@@ -1,5 +1,5 @@
 public class ex{
-  public static void public static void main(String[] args) {
+  public static void main(String[] args) {
     /*
      * Programa que soma 2 números
      *  1- apontar os dois números
@@ -9,13 +9,13 @@ public class ex{
     // parte 1
     int num1, num2;
     num1=5;
-    num2=10
+    num2=10;
 
     // parte 2
-    int soma= num1+num2
+    int soma= num1+num2;
 
     // parte 3
-    System.out.println("O resultado da soma é"soma);
+    System.out.println("O resultado da soma é"+soma);
 
   }
 }
