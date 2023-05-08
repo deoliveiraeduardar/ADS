@@ -1,20 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package com.mycompany.bdw_m1_a_35_1;
 
-/**
- *
- * @author dudah
- */
 public class A3_5_1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+       /*Programa que soma 2 números
+        1. Apontar os 2 números
+        2. Somar os 2 números
+        3. Imrimir a soma
+       */
+       
+       // Parte 1
+       int num1, int num2;
+        // Também posso escrever em duas linhas
+       num1=5;
+       num2=10;
+       // Parte 2
+       int soma= num1 + num2;
+       
+       
     }
     
 }
