@@ -10,13 +10,16 @@ public class A3_5_1 {
        */
        
        // Parte 1
-       int num1, int num2;
+       int num1; int num2;
         // Também posso escrever em duas linhas
        num1=5;
        num2=10;
-       // Parte 2
+       
+        // Parte 2
        int soma= num1 + num2;
        
+              // Parte 3
+       System.out.println("O resultado da soma é "+soma);     
        
     }
     
