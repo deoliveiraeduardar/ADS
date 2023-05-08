@@ -15,7 +15,7 @@ public class ex{
     int soma= num1+num2;
 
     // parte 3
-    System.out.println("O resultado da soma é"+soma);
+    System.out.println("O resultado da soma é " +soma);
 
   }
 }
