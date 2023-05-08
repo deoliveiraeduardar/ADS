@@ -11,5 +11,5 @@
         <maven.compiler.target>20</maven.compiler.target>
         <exec.mainClass>com.mycompany.bdw_m1_a_35_1.BDW_M1_A_35_1</exec.mainClass>
     </properties>
-    <name>BDW_M1_A_35_1</name>
+    <name>bdw_m1_a_35_1</name>
 </project>
