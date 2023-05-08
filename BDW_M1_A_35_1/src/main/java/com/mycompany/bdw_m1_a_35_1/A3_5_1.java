@@ -18,7 +18,7 @@ public class A3_5_1 {
         // Parte 2
        int soma= num1 + num2;
        
-              // Parte 3
+        // Parte 3
        System.out.println("O resultado da soma é "+soma);     
        
     }
