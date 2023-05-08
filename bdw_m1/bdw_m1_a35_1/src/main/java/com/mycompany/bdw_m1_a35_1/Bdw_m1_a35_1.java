@@ -9,7 +9,9 @@ public class Bdw_m1_a35_1 {
         Scanner Entrada= new Scanner (System.in);
         System.out.println("Digite o primeiro número: ");
         num1=Entrada.nextInt();
-
+        
+        System.out.println("Digite o segundo número: ");
+        num2=Entrada.nextInt();
         int soma=num1+num2;
         
         System.out.println("A soma dos números é: "+soma);
