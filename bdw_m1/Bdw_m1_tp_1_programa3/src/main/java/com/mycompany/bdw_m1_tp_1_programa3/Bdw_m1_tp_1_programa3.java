@@ -38,6 +38,6 @@ public class Bdw_m1_tp_1_programa3 {
             aux=Entrada.nextInt();
             if(aux==1)
                 seguir=true;
-        }While(seguir==true);
+        }while(seguir==true);
     }
 }
