@@ -20,9 +20,20 @@ public class Bdw_m1_tp_1_programa3 {
                 carronovo=true;
             if((avista==true)&&(carronovo=true)){
                 desconto=0.15;
+            }else if(avista==true){
+                desconto=0.08;
+            }else if(carronovo==true){
+                desconto=0.05;
+            }else{
+                System.out.println("Ofereça um café para o cliente.");
             }
-            
-        }
-        
+            valorcarro-=(valorcarro*desconto);
+            System.out.println("Valor final para pagamento: "+valorcarro);
+            System.out.println("/n/n/n/n/nCalcular o valor de uma nova venda (Aperte1)  ");
+            System.out.println("Encerrar o programa        (Aperte outro número)");
+            aux=Entrada.nextInt();
+            if(aux==1)
+                seguir=true;
+        }While(seguir==true);
     }
 }
