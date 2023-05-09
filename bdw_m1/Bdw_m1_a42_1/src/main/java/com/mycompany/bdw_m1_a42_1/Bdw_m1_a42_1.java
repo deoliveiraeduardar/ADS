@@ -8,11 +8,11 @@ public class Bdw_m1_a42_1 {
 
     public static void main(String[] args) {
         boolean renda=true;
-        boolean adimplencia=false;
-        boolean privilege=false;
+        boolean adimplencia=true;
+        boolean privilege=true;
         boolean restricao=true;
         
-        boolean resultado=((renda&&adimplencia)||privilege);
+        boolean resultado=((renda&&adimplencia)||privilege)&&!restricao;
          
         System.out.println("Empréstimo deve ser concedido? "+resultado);
     }
