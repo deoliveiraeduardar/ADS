@@ -1,7 +1,7 @@
 package com.mycompany.bdw_m1_tp_1;
+
 import java.util.Scanner;
 public class Bdw_m1_tp_1 {
-
     public static void main(String[] args) {
         int num1, num2;
         double div=0;
