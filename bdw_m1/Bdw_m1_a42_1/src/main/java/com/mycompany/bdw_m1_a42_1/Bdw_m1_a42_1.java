@@ -7,10 +7,10 @@ package com.mycompany.bdw_m1_a42_1;
 public class Bdw_m1_a42_1 {
 
     public static void main(String[] args) {
-        boolean renda=true;
+        boolean renda=false;
         boolean adimplencia=true;
-        boolean privilege=true;
-        boolean restricao=true;
+        boolean privilege=false;
+        boolean restricao=false;
         
         boolean resultado=((renda&&adimplencia)||privilege)&&!restricao;
          
