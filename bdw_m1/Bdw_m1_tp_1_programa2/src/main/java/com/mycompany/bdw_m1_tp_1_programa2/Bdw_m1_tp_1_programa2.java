@@ -18,6 +18,5 @@ public class Bdw_m1_tp_1_programa2 {
         }
         
         System.out.println("O valor de num3 é= "+num3);
-        
     }
 }
