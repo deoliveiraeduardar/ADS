@@ -17,6 +17,9 @@ public class Bdw_m1_tp_1_programa2 {
             num3=num2;
         }
         
-        System.out.println("O valor de num3 é= "+num3);
+       System.out.println("       O valor de num2 é= "+num2);
+       System.out.println("1. O valor de num3 é= "+num3);
+
+        
     }
 }
