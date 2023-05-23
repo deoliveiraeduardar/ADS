@@ -1,12 +1,11 @@
-#codigo q13
-def codigo_q13(b):
-    pilha_restos = []
+algoritmo2 (vetor):
+    for =0 até comprimento(vetor)
+    aux=vetor[i]
 
-    while b > 0:
-        resto = b % 2
-        pilha_restos.append(resto)
-        b = b // 2
-    saida = []
-    while pilha_restos:
-        saida.append(str(pilha_restos.pop()))
-    return ''.join(saida)
+    resultado=-1
+se vetor[i]=x:
+resultado=i
+fim se
+fim para
+retorne resultado
+fim
