@@ -1,9 +1,12 @@
-#implicação Se..então
-def implicacao(p, q):
-  return #IMPLEMENTE#
+#codigo q13
+def codigo_q13(b):
+    pilha_restos = []
 
-print("p    q    a")
-for p in [True, False]:
-  for q in [True, False]:
-    a = implicacao(p, q)
-    print(p, q, a)
+    while b > 0:
+        resto = b % 2
+        pilha_restos.append(resto)
+        b = b // 2
+    saida = []
+    while pilha_restos:
+        saida.append(str(pilha_restos.pop()))
+    return ''.join(saida)
