@@ -1,11 +1,14 @@
-algoritmo2 (vetor):
-    for =0 até comprimento(vetor)
-    aux=vetor[i]
+Escreva o pseudocódigo em código em python:
 
+inicio algoritmo1(vetor,x):
     resultado=-1
-se vetor[i]=x:
-resultado=i
-fim se
-fim para
-retorne resultado
+    para i=0 até comprimento(vetor)
+        se vetor[i]=x:
+            resultado=i
+        fim se
+    fim para
+    retorne resultado
 fim
+
+
+
